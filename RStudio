@@ -5,7 +5,9 @@ Installed.Package(bestglm)
 Installed.Package(ROCR)
 Installed.Package(dplyr)
 Installed.Package(ROSE)
+Installed.Package(ggplot2)
 
+library(ggplot2)
 library(tidyverse)
 library(leaps) 
 library(olsrr)
@@ -79,3 +81,31 @@ library(ggplot2)
 ggplot(BankMarketingData_Actual,aes(job))+geom_bar(aes(fill=y))+
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 
+#
+
+# Admin and Management are most clients with job description that subscribed a term deposit.
+# Meanwhile, 
+  
+table(BankMarketingData_Actual$contact,BankMarketingData_Actual$y)
+
+ggplot(BankMarketingData_Actual,aes(previous))+geom_bar(aes(fill=y))
+  
+ggplot(BankMarketingData_Actual,aes(job))+geom_bar(aes(fill=contact)) + theme(axis.text.x = element_text(angle = 90, vjust = 0.9, hjust=1))
+ 
+ 
+table(BankMarketingData_Actual$poutcome,BankMarketingData_Actual$y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+BankMarketingDataTrain <- ovun.sample(Subscribed ~ ., data = BankMarketingDataTrain, method = "over",N =42600 )$data
+table(BankMarketingDataTrain$Subscribed)
