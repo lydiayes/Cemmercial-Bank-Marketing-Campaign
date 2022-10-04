@@ -1,0 +1,81 @@
+Installed.Package(tidyverse)
+Installed.Package(leaps)
+Installed.Package(olsrr)
+Installed.Package(bestglm)
+Installed.Package(ROCR)
+Installed.Package(dplyr)
+Installed.Package(ROSE)
+
+library(tidyverse)
+library(leaps) 
+library(olsrr)
+library(bestglm)
+library(ROCR)
+library(dplyr)
+library(ROSE)
+BankMarketingData_Actual <- read.csv("~/Marketing_Campaign.csv")
+
+# Display the dimensions of this data set
+dim(BankMarketingData_Actual)
+
+# Display the column names of the dataset
+names(BankMarketingData_Actual)
+
+# Inspect the type and some characteristics of each variable or column.
+str(BankMarketingData_Actual)
+
+# Inspect NA values in the data set and Impute them -
+anyNA(BankMarketingData_Actual)
+
+# Define the clean Bank Marketing Data
+BankMarketingData_Clean <- BankMarketingData_Actual
+
+#Add target variable 'Subscribed' for the variable 'y'
+
+BankMarketingData_Clean$Subscribed <- ifelse(BankMarketingData_Actual$y == 'yes', 1, 0)
+BankMarketingData_Clean$Subscribed <- factor(BankMarketingData_Clean$Subscribed)
+
+BankMarketingData_Clean$job <- factor(BankMarketingData_Clean$job)
+BankMarketingData_Clean$marital <- factor(BankMarketingData_Clean$marital)
+BankMarketingData_Clean$education <- factor(BankMarketingData_Clean$education)
+BankMarketingData_Clean$default <- factor(BankMarketingData_Clean$default)
+BankMarketingData_Clean$housing <- factor(BankMarketingData_Clean$housing)
+BankMarketingData_Clean$loan <- factor(BankMarketingData_Clean$loan)
+BankMarketingData_Clean$contact <- factor(BankMarketingData_Clean$contact)
+BankMarketingData_Clean$month <- factor(BankMarketingData_Clean$month)
+BankMarketingData_Clean$poutcome <- factor(BankMarketingData_Clean$poutcome)
+
+View(BankMarketingData_Clean)
+View(BankMarketingData_Actual)
+
+str(BankMarketingData_Clean)
+
+#Also, removing the y as we have transformed the value of y into Subscribed
+BankMarketingData_Clean <- subset( BankMarketingData_Clean, select = -y )
+
+BankMarketingData_Clean <- subset( BankMarketingData_Clean, select = -duration )
+
+length(unique(BankMarketingData_Clean$day))
+
+#Wrangling & Exploratory Data
+summary(BankMarketingData_Clean$Subscribed)
+
+
+sort(round(prop.table(table(BankMarketingData_Clean$job))*100, 2), decreasing = T)
+
+sort(round(prop.table(table(BankMarketingData_Clean$education))*100, 2), decreasing = T)
+
+sort(round(prop.table(table(BankMarketingData_Clean$rangeage))*100, 2), decreasing = T)
+
+round(prop.table(table(BankMarketingData_Clean$marital, BankMarketingData_Clean$Subscribed))*100, 2)
+
+#Initial run of the logistic regression, we found out that loan=unknown do not have any significance and 
+#the summary is providing ‘NA’ for all the output parameters. So removing it
+BankMarketingData_Clean <- BankMarketingData_Clean %>% dplyr::filter(BankMarketingData_Clean$loan != 'unknown')
+
+#Exploratory Data Analysis
+library(dplyr)
+library(ggplot2)
+ggplot(BankMarketingData_Actual,aes(job))+geom_bar(aes(fill=y))+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
