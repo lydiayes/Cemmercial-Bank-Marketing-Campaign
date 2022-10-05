@@ -2,10 +2,10 @@
 
 #Agenda
 Part 1- Client Demigraphic
-part 2- Results from Last Campaign 
-part 3- Recommandation
-Part 4- Discussion
-part 5- Q & A
+/ part 2- Results from Last Campaign 
+/ part 3- Recommandation
+/ Part 4- Discussion
+/ part 5- Q & A
 
 
 # Part 1- Client Demigraphic
