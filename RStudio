@@ -11,6 +11,9 @@ install.packages("fastDummies")
 install.packages("e1071")
 install.packages("caret")
 install.packages("rpart")
+install.packages("randomForest")
+install.packages("ada")
+
 
 library(ggplot2)
 library(tidyverse)
