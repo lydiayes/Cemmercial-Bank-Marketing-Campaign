@@ -6,7 +6,11 @@
 # part 3- Recommandation
 # Part 4- Discussion
 # part 5- Q & A
-
+#
+#
+#
+#
+$
 # Part 1- Client Demigraphic
 # Thue purpose of today's discussion is to share predicting insights of our potential client from the last campaign
 # Before we dig into that, let's do a recap of client demigraphic
@@ -16,7 +20,7 @@
 
 
 
-<img width="261" alt="balance for 100 and management jobs" src="https://user-images.githubusercontent.com/43142255/194133357-b3d1f7df-a72a-4ca9-ab95-6cdb20b254b9.png"><img width="98" alt="Balane Group With Credit" src="https://user-images.githubusercontent.com/43142255/194133392-33d50028-fe5f-4962-9b4b-e26cfcb6797c.png"><img width="100" alt="balance for 100 and management jobs - jobs categories" src="https://user-images.githubusercontent.com/43142255/194133433-1ba58ea0-3046-4318-9388-384c26caeed4.png">
+<img width="261" alt="balance for 100 and management jobs" src="https://user-images.githubusercontent.com/43142255/194133357-b3d1f7df-a72a-4ca9-ab95-6cdb20b254b9.png">
 
 
 Number of Instances: 42600 for bank.csv
@@ -43,11 +47,8 @@ Variable information:
    # other attributes:
 
   13 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
-
   14 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)
-
   15 - previous: number of contacts performed before this campaign and for this client (numeric)
-
   16 - poutcome: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
 
 Marketing Campaign
@@ -136,5 +137,14 @@ Marketing Campaign
 
 
 # Part 4- Discussion
+<img width="98" alt="Balane Group With Credit" src="https://user-images.githubusercontent.com/43142255/194133392-33d50028-fe5f-4962-9b4b-e26cfcb6797c.png"><img width="100" alt="balance for 100 and management jobs - jobs categories" src="https://user-images.githubusercontent.com/43142255/194133433-1ba58ea0-3046-4318-9388-384c26caeed4.png">
+
+# For the business strategy, people who has less than 100 dollor in the bank account is arctually in management industry.
+# Which means, people has high income that might has the possibility to own several bank account.
+# We will try to contact with people who has less balance in the bank account to transfer their term deposit from other bank to our bank.
+# we are not only going to focust on the client who has a lot of balance in our current deposit account.
+# People who age between 20-30 and singel is one target group, due to they don't have family pressure.
+# People who age above 50 and divorce is another target group, due to they have the willing to retired and manage the current depsit in the bank.
+
 # part 5- Q & A
 # lijiangningzi@gmail.com
