@@ -134,7 +134,7 @@ BankMarketingDataTest <- BankMarketingData_Clean[test, ]
 # Train - balancing by Oversampling technique#
 table(BankMarketingDataTrain$Subscribed)
 
-BankMarketingDataTrain <- ovun.sample(Subscribed ~ ., data = BankMarketingDataTrain, method = "over",N =4960 )$data
+BankMarketingDataTrain <- ovun.sample(Subscribed ~ ., data = BankMarketingDataTrain, method = "over",N =42600 )$data
 table(BankMarketingDataTrain$Subscribed)
 
 
