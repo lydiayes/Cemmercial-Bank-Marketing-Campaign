@@ -1,18 +1,16 @@
 # Cemmercial BanK Marketing Campaign
 
-# Agenda
-# Part 1- Client Demigraphic
-# part 2- Results from Last Campaign 
-# part 3- Recommandation
-# Part 4- Discussion
-# part 5- Q & A
-#
-#
-#
-#
-# Part 1- Client Demigraphic
-# Thue purpose of today's discussion is to share predicting insights of our potential client from the last campaign
-# Before we dig into that, let's do a recap of client demigraphic
+Agenda
+Part 1- Client Demigraphic
+part 2- Results from Last Campaign 
+part 3- Recommandation
+Part 4- Discussion
+part 5- Q & A
+
+
+Part 1- Client Demigraphic
+Thue purpose of today's discussion is to share predicting insights of our potential client from the last campaign
+Before we dig into that, let's do a recap of client demigraphic
 
 # client demigraphic
 <img width="546" alt="Client Demegraphic" src="https://user-images.githubusercontent.com/43142255/194132794-8b4bcb77-9e53-4522-b81a-d60460fe7154.png">
