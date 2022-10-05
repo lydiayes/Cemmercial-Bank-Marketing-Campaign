@@ -17,11 +17,7 @@
 ![1](https://user-images.githubusercontent.com/43142255/194160532-355449b4-09f0-4173-8408-bec7f070aa29.png)
 
 ## Part 2- Results from the Last Campaign
-##### This is the outcome of the previous campaign 
-##### With a total of 42600 people.
-##### There are about 10% subscribed to our products (term deposit).
-##### Since our discussion purpose is to look into the factors that encourage people to subscribe to our products.
-##### For the rest of the discussion, we will be focusing on the 4200 subscribers.
+
 
 
 ![2](https://user-images.githubusercontent.com/43142255/194160563-8a93553a-6220-4eae-98f5-bda654590f22.png)
