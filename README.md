@@ -1,6 +1,6 @@
 # Cemmercial BanK Marketing Campaign
 
-Agenda
+#Agenda
 Part 1- Client Demigraphic
 part 2- Results from Last Campaign 
 part 3- Recommandation
@@ -8,7 +8,7 @@ Part 4- Discussion
 part 5- Q & A
 
 
-Part 1- Client Demigraphic
+# Part 1- Client Demigraphic
 Thue purpose of today's discussion is to share predicting insights of our potential client from the last campaign
 Before we dig into that, let's do a recap of client demigraphic
 
@@ -53,10 +53,10 @@ Marketing Campaign
 
 
 # part 2- Results from Last Campaign 
-# This is the outcomes from the previous campaign
-# Whithin the total of 42600 people, there are about 10% subscribed to our products (term deposit)
-# Since our discussion purpose is to look into the factors tthat encourage people to subscirbe to our products
-# For the rest of the discussion, we will be focusing on the 4200 subscribers.
+This is the outcomes from the previous campaign
+Whithin the total of 42600 people, there are about 10% subscribed to our products (term deposit)
+Since our discussion purpose is to look into the factors tthat encourage people to subscirbe to our products
+For the rest of the discussion, we will be focusing on the 4200 subscribers.
 
 
 <img width="546" alt="Client Demegraphic" src="https://user-images.githubusercontent.com/43142255/194133504-f887a71d-d4d0-431e-9708-26e9972f75b4.png">
@@ -67,10 +67,10 @@ Marketing Campaign
 # part 3- Recommandation
 
 # Models On Python
-# We first checking on missing data and missing cells, missing values in train dataset.
-# Amount 17 variable, we focus on our target group, Y is target variable
-# While 'no' means clinet did NOT subscribed a term deposit
-# While 'yes' means client subscribed a term deposit
+We first checking on missing data and missing cells, missing values in train dataset.
+Amount 17 variable, we focus on our target group, Y is target variable
+While 'no' means clinet did NOT subscribed a term deposit
+While 'yes' means client subscribed a term deposit
 
 ![image](https://user-images.githubusercontent.com/43142255/194131622-4c85f959-8bbf-438b-a295-31915fbe4f6b.png)
 
@@ -78,37 +78,36 @@ Marketing Campaign
 
 # From the following analysing result, it is clear shown that
 
-# 1- Age range for subscribers are higher than non-subscribers.
-# 2- Bank statement Balance of subscribers are higher than non-subscribers.
-# 3- Subscribers contacts about 1 day fasters than non-subscribers.
-# 4- The average durations of last contact are 2.6 times higher in subscrition group.
-# Interestingly, on the otherhand,
-# number of days that passed by after the last contacted the client 
-# from a previous campaign is smaller
+1- Age range for subscribers are higher than non-subscribers.
+2- Bank statement Balance of subscribers are higher than non-subscribers.
+3- Subscribers contacts about 1 day fasters than non-subscribers.
+4- The average durations of last contact are 2.6 times higher in subscrition group.
+
+Interestingly, on the otherhand, number of days that passed by after the last contacted the client, from a previous campaign is smaller
 
 
-# 1- Average pdays of users who purchased financial products (days since last contacted the customer)
-# 2- Campaign should be less than the average pdays of non-purchasing users, which is reasonable because the smaller the pdays
-# 3- The closer the day of the last call, the stronger the user's memory of financial products, and therefore the greater the chance of sales.
-# 4- If the average campaign of users who purchase financial products (the number of phone calls with users) 
-# 5- Similarly, the average campaign of users who have not purchased.
+1- Average pdays of users who purchased financial products (days since last contacted the customer)
+2- Campaign should be less than the average pdays of non-purchasing users, which is reasonable because the smaller the pdays
+3- The closer the day of the last call, the stronger the user's memory of financial products, and therefore the greater the chance of sales.
+4- If the average campaign of users who purchase financial products (the number of phone calls with users) 
+5- Similarly, the average campaign of users who have not purchased.
 
 ![image](https://user-images.githubusercontent.com/43142255/194134900-b91590ec-e81a-4bb0-92e8-36c8a51f3d5e.png)
 
-# It is clear to see that the number of term deposit is various by works.
-# Management is the top buyers, but the non-subscribers are ranking as second.
-# *****Meanwhile there is a huge oppotunities in management and technician.
-# Numbers in blue-collar, admin are relatively large.
+It is clear to see that the number of term deposit is various by works.
+Management is the top buyers, but the non-subscribers are ranking as second.
+*****Meanwhile there is a huge oppotunities in management and technician.
+Numbers in blue-collar, admin are relatively large.
 
 ![image](https://user-images.githubusercontent.com/43142255/194135043-ff047dd4-8328-4174-95e7-8e180315472f.png)
 
-# Marital status doesn't show strong relative for subsribers' preference.
-# Single/Divorced people are more likely make a term deposit.
+Marital status doesn't show strong relative for subsribers' preference.
+Single/Divorced people are more likely make a term deposit.
 
 ![image](https://user-images.githubusercontent.com/43142255/194135248-536c10b9-21e4-4c72-9348-97f7b97c7f4b.png)
 
 
-# On holiday season, December, it is unlikely for people to make a term deposit.
+On holiday season, December, it is unlikely for people to make a term deposit.
 
 ![image](https://user-images.githubusercontent.com/43142255/194135313-eeaf2d85-a1c0-463d-89ce-5f2c71e26eb9.png)
 
@@ -118,17 +117,17 @@ Marketing Campaign
 
 
 # Models On R
-# Table 1
+Table 1
 ![image](https://user-images.githubusercontent.com/43142255/193896098-14b95c4e-8689-4bd0-81b5-4b508922f557.png)
 
-# *****Meanwhile there is a huge oppotunities in management and technician.
+*****Meanwhile there is a huge oppotunities in management and technician.
 
 
 # Table 2
 
 ![image](https://user-images.githubusercontent.com/43142255/193896658-9f0ff306-ddb5-47d2-991f-6f54d1070031.png)
 
-# Table 3
+Table 3
 
 ![image](https://user-images.githubusercontent.com/43142255/193974536-1b7c3a21-43a4-4357-ab0c-e7ee52f0be25.png)
 
@@ -136,12 +135,12 @@ Marketing Campaign
 # Part 4- Discussion
 <img width="98" alt="Balane Group With Credit" src="https://user-images.githubusercontent.com/43142255/194133392-33d50028-fe5f-4962-9b4b-e26cfcb6797c.png"><img width="100" alt="balance for 100 and management jobs - jobs categories" src="https://user-images.githubusercontent.com/43142255/194133433-1ba58ea0-3046-4318-9388-384c26caeed4.png">
 
-# For the business strategy, people who has less than 100 dollor in the bank account is arctually in management industry.
-# Which means, people has high income that might has the possibility to own several bank account.
-# We will try to contact with people who has less balance in the bank account to transfer their term deposit from other bank to our bank.
-# we are not only going to focust on the client who has a lot of balance in our current deposit account.
-# People who age between 20-30 and singel is one target group, due to they don't have family pressure.
-# People who age above 50 and divorce is another target group, due to they have the willing to retired and manage the current depsit in the bank.
+For the business strategy, people who has less than 100 dollor in the bank account is arctually in management industry.
+Which means, people has high income that might has the possibility to own several bank account.
+We will try to contact with people who has less balance in the bank account to transfer their term deposit from other bank to our bank.
+we are not only going to focust on the client who has a lot of balance in our current deposit account.
+People who age between 20-30 and singel is one target group, due to they don't have family pressure.
+People who age above 50 and divorce is another target group, due to they have the willing to retired and manage the current depsit in the bank.
 
 # part 5- Q & A
-# lijiangningzi@gmail.com
+lijiangningzi@gmail.com
