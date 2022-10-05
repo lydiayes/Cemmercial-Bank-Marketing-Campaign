@@ -10,7 +10,6 @@
 #
 #
 #
-$
 # Part 1- Client Demigraphic
 # Thue purpose of today's discussion is to share predicting insights of our potential client from the last campaign
 # Before we dig into that, let's do a recap of client demigraphic
