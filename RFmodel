@@ -1,0 +1,71 @@
+bankfull <- read.csv2("bank-full.csv",stringsAsFactors = F)
+names(bankfull)
+summary(bankfull)
+library(outliers)
+outlier(as.numeric(bankfull$balance))# opposite = FALSE, logical = FALSE
+which(is.na(bankfull))
+bankfull=na.omit(bankfull)
+bankfull<-bankfull[!duplicated(bankfull),]
+write.csv(bankfull,'bankfull.csv')
+
+newbank <- read.csv2("bank-full.csv",stringsAsFactors = F)
+bankdata<-summary(newbank)
+set.seed(1)
+sub<-sample(1:nrow(newbank),round(nrow(newbank)*2/3))
+length(sub)#30141
+data_train<-newbank[sub,]
+data_test<-newbank[-sub,]
+dim(data_train)
+dim(data_test)
+table(data_train$y)
+table(data_test$y)
+
+
+library(sampling)
+library(party)
+library(rpart)
+library(rpart.plot)
+library(rattle)
+
+bank_tree<-rpart(as.factor(y)~ .,data=data_train,method='class',minsplit=20,minbucket=150,cp=0.00017)
+summary(bank_tree)
+print(bank_tree)
+
+rpart.plot(bank_tree)
+
+
+test_pre = predict(bank_tree,newdata = data_test)
+test_pre <-data.frame(test_pre)
+
+b<-cut(test_pre$no,breaks=c(-Inf,0.5,Inf),
+       labels = c("yes","no"))
+test_pre<-cbind(test_pre,b)
+write.csv(test_pre,'test_pre.csv')
+
+ac <- table(test_pre[,3],data_test$y)  
+
+acc<-(ac[1,2]+ac[2,1])/(ac[1,1]+ac[1,2]+ac[2,1]+ac[2,2])
+acc #0.9019244
+
+asRules(bank_tree)
+
+cp=bank_tree$cptable[which.min(bank_tree$cptable[,"xerror"]),"CP"]
+cp #0.004106485
+bank_tree2<-prune(bank_tree,cp=bank_tree$cptable[which.min(bank_tree$cptable[,"xerror"]),"CP"])
+
+rpart.plot(bank_tree2)
+
+test_pre2 = predict(bank_tree2,newdata = data_test)
+test_pre2 <-data.frame(test_pre2)
+
+c<-cut(test_pre2$no,breaks=c(-Inf,0.5,Inf),
+       labels = c("yes","no"))
+test_pre2<-cbind(test_pre2,c)
+write.csv(test_pre2,'test_pre2.csv')
+
+ac2<-table(test_pre2[,3],data_test$y)  
+
+acc2<-(ac2[1,2]+ac2[2,1])/(ac2[1,1]+ac2[1,2]+ac2[2,1]+ac2[2,2])
+acc2 #0.9021234
+
+asRules(bank_tree2)
