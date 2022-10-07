@@ -10,24 +10,23 @@
 
 
 
+
 ## Part 1- Client Demographic
 
-
-
-![1](https://user-images.githubusercontent.com/43142255/194160532-355449b4-09f0-4173-8408-bec7f070aa29.png)
+![image](https://user-images.githubusercontent.com/43142255/194624813-c64c248c-3a37-4b83-a941-861ec49c3b57.png)
 
 ## Part 2- Results from the Last Campaign
 
-
-
-![2](https://user-images.githubusercontent.com/43142255/194160563-8a93553a-6220-4eae-98f5-bda654590f22.png)
+![image](https://user-images.githubusercontent.com/43142255/194624854-bdd4a22d-6767-4770-9ba4-4354bcc932c6.png)
 
 
 
 
-## Part 3- Analyzing
+## Part 3- Analyzing for future client
 
-
+## Overview
+![image](https://user-images.githubusercontent.com/43142255/194624933-c4af1fae-72fd-4226-8b16-76342ab0aa15.png)
+ 
 
 
 ![3](https://user-images.githubusercontent.com/43142255/194160577-b399ca92-ee68-4c8b-ae76-a98057c18e02.png)
@@ -69,7 +68,12 @@
 
 
 
-## Part 4- Recomandation
+## Part 4- Recomandation and future client targeting
+
+
+<img width="795" alt="Future Client" src="https://user-images.githubusercontent.com/43142255/194624541-77b6d088-39ea-4b34-a988-c147014224a6.png">
+
+
 
 ![10](https://user-images.githubusercontent.com/43142255/194160678-3c653b16-3120-44c7-b5d7-d2a32ccb565b.png)
 
