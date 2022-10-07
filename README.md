@@ -22,9 +22,8 @@
 ## Part 3- Analyzing for future client
 
 ## Overview
- 
- <img width="795" alt="Future Client" src="https://user-images.githubusercontent.com/43142255/194628401-fe691226-0994-47eb-9651-822ccfd8c962.png">
 
+![image](https://user-images.githubusercontent.com/43142255/194629489-aaef2dfc-8222-4732-987d-3aa1fdf90402.png)
 
 ## Model on Python
 ![3](https://user-images.githubusercontent.com/43142255/194160577-b399ca92-ee68-4c8b-ae76-a98057c18e02.png)
@@ -74,6 +73,7 @@
 ![11](https://user-images.githubusercontent.com/43142255/194160697-5b74aecd-d950-48d0-8a45-e97e7963e136.png)![12](https://user-images.githubusercontent.com/43142255/194160709-c1e13f6e-296c-4a42-aa2d-f71c2497ee18.png)
 
 
-
+##### part 5- Q & A
+##### lijiangningzi@gmail.com
 
 
