@@ -13,31 +13,26 @@
 
 ## Part 1- Client Demographic
 
-![image](https://user-images.githubusercontent.com/43142255/194624813-c64c248c-3a37-4b83-a941-861ec49c3b57.png)
+![image](https://user-images.githubusercontent.com/43142255/194628076-3a12b340-4072-4e15-8478-b96e6708819e.png)
 
 ## Part 2- Results from the Last Campaign
 
-![image](https://user-images.githubusercontent.com/43142255/194624854-bdd4a22d-6767-4770-9ba4-4354bcc932c6.png)
-
-
-
+![image](https://user-images.githubusercontent.com/43142255/194628148-45294da6-4822-48f4-8a84-c674ed2b7168.png)
 
 ## Part 3- Analyzing for future client
 
 ## Overview
-![image](https://user-images.githubusercontent.com/43142255/194624933-c4af1fae-72fd-4226-8b16-76342ab0aa15.png)
  
+ <img width="795" alt="Future Client" src="https://user-images.githubusercontent.com/43142255/194628401-fe691226-0994-47eb-9651-822ccfd8c962.png">
 
 
+## Model on Python
 ![3](https://user-images.githubusercontent.com/43142255/194160577-b399ca92-ee68-4c8b-ae76-a98057c18e02.png)
 
 ![4](https://user-images.githubusercontent.com/43142255/194160587-e400a908-2a7b-44ad-b8b5-445e0ba863bd.png)
 
 
 ##### From the following analyzing result, it is clearly shown that
-
-
-
 
 ![5](https://user-images.githubusercontent.com/43142255/194160602-d19dc092-3fdb-4746-81f0-169091708679.png)
 
@@ -57,7 +52,7 @@
 ![8](https://user-images.githubusercontent.com/43142255/194160642-676ae438-e172-41ae-9346-7bfcdeada65a.png)
 
 
-## part 3- Models On R
+## Models On R
 ##### 1- Using Random Forest Model for the machine learning algorithm.
 ##### 2- Combing the 17 variables decision trees.
 ##### 3- Evaluate the total trees for taking a majority vote.
@@ -70,14 +65,9 @@
 
 ## Part 4- Recomandation and future client targeting
 
-
 <img width="795" alt="Future Client" src="https://user-images.githubusercontent.com/43142255/194624541-77b6d088-39ea-4b34-a988-c147014224a6.png">
 
-
-
 ![10](https://user-images.githubusercontent.com/43142255/194160678-3c653b16-3120-44c7-b5d7-d2a32ccb565b.png)
-
-
  
 ![11](https://user-images.githubusercontent.com/43142255/194160681-dd395873-323c-4b30-863c-f68a91a0b408.jpg)
 
