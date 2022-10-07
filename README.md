@@ -65,8 +65,6 @@
 ## Part 4- Recommendation: targeting on future client
 
 <img width="795" alt="Future Client" src="https://user-images.githubusercontent.com/43142255/194624541-77b6d088-39ea-4b34-a988-c147014224a6.png">
- 
-![11](https://user-images.githubusercontent.com/43142255/194160681-dd395873-323c-4b30-863c-f68a91a0b408.jpg)
 
 
 
