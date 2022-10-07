@@ -3,8 +3,8 @@
 ## Agenda 
 ##### Part 1- Client Demographic
 ##### part 2- Results from the Last Campaign
-##### part 3- Analysing 
-##### Part 4- Discussion and Recommendation
+##### part 3- Analyzing future client
+##### Part 4- Recommendation: targeting on future client
 ##### part 5- Q & A
 
 
@@ -19,7 +19,7 @@
 
 ![image](https://user-images.githubusercontent.com/43142255/194628148-45294da6-4822-48f4-8a84-c674ed2b7168.png)
 
-## Part 3- Analyzing for future client
+## Part 3- Analyzing future client
 
 ## Overview
 
@@ -62,15 +62,12 @@
 
 
 
-## Part 4- Recomandation and future client targeting
+## Part 4- Recommendation: targeting on future client
 
 <img width="795" alt="Future Client" src="https://user-images.githubusercontent.com/43142255/194624541-77b6d088-39ea-4b34-a988-c147014224a6.png">
-
-![10](https://user-images.githubusercontent.com/43142255/194160678-3c653b16-3120-44c7-b5d7-d2a32ccb565b.png)
  
 ![11](https://user-images.githubusercontent.com/43142255/194160681-dd395873-323c-4b30-863c-f68a91a0b408.jpg)
 
-![11](https://user-images.githubusercontent.com/43142255/194160697-5b74aecd-d950-48d0-8a45-e97e7963e136.png)![12](https://user-images.githubusercontent.com/43142255/194160709-c1e13f6e-296c-4a42-aa2d-f71c2497ee18.png)
 
 
 ##### part 5- Q & A
