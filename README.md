@@ -1,5 +1,8 @@
 # Cemmercial-Bank-Marketing-Campaign
 
+## Project Summary
+##### The Commercial Bank Marketing Campaign project conducts an exploratory data analysis and develops multiple classification models for optimizing sales call activity by using random forest via Python or R to analyze and develop a predictive model. Minimize classification errors that cover 17 variables covering client data (8 variables) and campaign data (9 variables) and come out with strategy recommendations including the clients' demographics, the main characteristics in each target segment, the analyzing results from the current campaign, and a practical go-to-market plan for how to approach future clients.
+
 ## Agenda 
 ##### Part 1- Client Demographic
 ##### part 2- Results from the Last Campaign
