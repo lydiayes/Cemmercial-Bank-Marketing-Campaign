@@ -5,8 +5,8 @@
 
 ## Agenda 
 ##### Part 1- Client Demographic
-##### part 2- Results from the Last Campaign
-##### part 3- Analyzing future client
+##### Part 2- Results from the Last Campaign
+##### Part 3- Analyzing Customer Personas
 ##### Part 4- Recommendation: targeting on future client
 ##### part 5- Q & A
 
